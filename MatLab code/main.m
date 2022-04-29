@@ -1,6 +1,8 @@
 function main
+    % Clear workspace and console
     clc; clear;
 
+    % TODO:
     % loads data from opinion-lexicon-English
     data = readLexicon;
 
@@ -9,21 +11,43 @@ function main
     cvp = cvpartition(numWords,'HoldOut',0.1);
     dataTrain = data(training(cvp),:);
     dataTest = data(test(cvp),:);
+    % TODO END
 
+    % Create a sentiment classifier (class)
     sentimentClassifier = SentimentClassifier;
+    
+    % Train the sentiment classifier
     sentimentClassifier.Train(dataTrain);
 
-    % CLASSIFIER TESTING
-    % convert testing data words into word vectors using word2vec
-    wordsTest = dataTest.Word;
-    XTest = word2vec(sentimentClassifier.FTWEmbedding, wordsTest);
-    YTest = dataTest.Label;
+    % Test the sentiment classifier
+    % Calculates the confusion matrix and accuracy of the trained model
+    sentimentClassifier.Test(dataTest.Word, dataTest.Label, "visualize");
 
-    sentimentClassifier.Test(XTest);
-
-    % visualize the classification
-    figure
-    confusionchart(YTest,YPred);
-
-    % TODO: Text preprocessing
+    % Example use of the classifier (can be used once trained):
+    textData = "Trash, shit, bad, horrible";
+    sentimentClassifier.Classify(textData);
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
