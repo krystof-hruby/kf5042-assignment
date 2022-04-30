@@ -1,3 +1,6 @@
+% Sentiment classifier class
+% Classifies sentiment of text into Positive, Negative and Neutral
+% Uses support vector machine for its model
 classdef SentimentClassifier < handle
     % PRIVATE PROPERTIES
     properties (Access = private)
@@ -17,28 +20,27 @@ classdef SentimentClassifier < handle
         % Trains the model on parameter data
         function obj = Train(obj, data)
             % Remove words that are not included in FTWEmbedding
-            removedWords = ~isVocabularyWord(obj.FTWEmbedding, data.Word);
+            removedWords = ~isVocabularyWord(obj.FTWEmbedding, data.Text);
             data(removedWords,:) = [];
 
-            % Convert words into word-vectors using word2vec from fastTextWordEmbedding toolbox
-            data_WordVectors = word2vec(obj.FTWEmbedding, data.Word);
-            data_Labels = data.Label;
+            % Convert text into word-vectors using word2vec from fastTextWordEmbedding toolbox
+            data_WordVectors = word2vec(obj.FTWEmbedding, data.Text);
 
-            % Train the SVM for binary classification using fitcsvm
+            % Train the model for binary classification using fitcsvm
             % https://www.mathworks.com/help/stats/fitcsvm.html
-            obj.Model = fitcsvm(data_WordVectors, data_Labels);
+            obj.Model = fitcsvm(data_WordVectors, data.Label);
         end
 
-        % Tests the classifier on known data and shows the results as a confusion matrix
-        function prediction = Test(obj, predictionData, trueData, visualize)
+        % Tests the classifier on known data and shows the results as a confusion matrix and its accuracy
+        function prediction = Test(obj, data, visualize)
             % Convert words into word-vectors using word2vec from fastTextWordEmbedding toolbox
-            predictionData_WordVectors = word2vec(obj.FTWEmbedding, predictionData);
+            predictionData_WordVectors = word2vec(obj.FTWEmbedding, data.Text);
             
             % Predict the sentiment
             [prediction, ~] = predict(obj.Model, predictionData_WordVectors);
             
             % Create confusion matrix for the classification
-            confusionMatrix = confusionmat(trueData, prediction);
+            confusionMatrix = confusionmat(data.Label, prediction);
             truePositives = confusionMatrix(1,1);
             trueNegatives = confusionMatrix(2,2);
             falsePositives = confusionMatrix(1,2);
@@ -50,65 +52,25 @@ classdef SentimentClassifier < handle
             fprintf("True negatives: %d\n", trueNegatives);
             fprintf("False positives: %d\n", falsePositives);
             fprintf("False negatives: %d\n", falseNegatives);
-            fprintf("Accuracy: %d%%\n",round(classificationAccuracy));
+            fprintf("Accuracy: %d%%\n", round(classificationAccuracy));
 
             % Visualize the confusion matrix
-            if nargin == 4 && visualize == "visualize"
+            if nargin == 3 && visualize == "visualize"
                 figure
-                confusionchart(trueData, prediction);
+                confusionchart(data.Label, prediction);
             end
         end
 
-        % 
+        % Classifies sentiment of data
         function prediction = Classify(obj, data)
-            % Preprocess the text
-            processedData = obj.PreprocessText(data);
+            % Convert text into word-vectors using word2vec from fastTextWordEmbedding toolbox
+            data_WordVectors = word2vec(obj.FTWEmbedding, data);
 
-            % Remove words that are not included in FTWEmbedding
-            removedWords = ~isVocabularyWord(obj.FTWEmbedding, processedData.Vocabulary);
-            processedData = removeWords(processedData, removedWords);
+            % Predict the sentiment
+            [prediction,~] = predict(obj.Model, data_WordVectors);
 
-            % Transform tokens into strings
-            processedData_Strings = string(processedData);
-
-            % Convert words into word-vectors using word2vec from fastTextWordEmbedding toolbox
-            processedData_WordVectors = word2vec(obj.FTWEmbedding, processedData_Strings);
-
-            % Predict sentiments for each word
-            [~,scores] = predict(obj.Model, processedData_WordVectors);
-            
-            % Calculate sentiment for the whole text (using mean)
-            sentimentScore = mean(scores(:,1));
-
-            % Decide the prediction based on calculated score and print it onto the console
-            if sentimentScore == 0
-                prediction = "Neutral";
-                fprintf("%s => %s (0)\n", data, prediction);
-            elseif sentimentScore > 0
-                prediction = "Positive";
-                fprintf("%s => %s (+%.2f)\n", data, prediction, sentimentScore);
-            else
-                prediction = "Negative";
-                fprintf("%s => %s (%.2f)\n", data, prediction, sentimentScore);
-            end
-        end
-     end
-
-     % PRIVATE METHODS
-     methods(Access = private)   
-        % Preprocess text for classification
-        function processedText = PreprocessText(obj, text)
-            % Tokenize the text (split text into word tokens)
-            processedText = tokenizedDocument(text);
-            
-            % Remove punctuation
-            processedText = erasePunctuation(processedText);
-            
-            % Remove stop words
-            processedText = removeStopWords(processedText);
-            
-            % Convert all letters to lowercase
-            processedText = lower(processedText);
+            % Print the prediction onto the console
+            fprintf("%s => %s\n", data, prediction);
         end
     end
 end

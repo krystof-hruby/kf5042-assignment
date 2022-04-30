@@ -1,34 +1,2225 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; 
-; Opinion Lexicon: Negative
-;
-; This file contains a list of NEGATIVE opinion words (or sentiment words).
-;
-; This file and the papers can all be downloaded from 
-;    http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
-;
-; If you use this list, please cite the following paper:
-;
-;   Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." 
-;       Proceedings of the ACM SIGKDD International Conference on Knowledge 
-;       Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle, 
-;       Washington, USA, 
-;
-; Notes: 
-;    1. The appearance of an opinion word in a sentence does not necessarily  
-;       mean that the sentence expresses a positive or negative opinion. 
-;       See the paper below:
-;
-;       Bing Liu. "Sentiment Analysis and Subjectivity." An chapter in 
-;          Handbook of Natural Language Processing, Second Edition, 
-;          (editors: N. Indurkhya and F. J. Damerau), 2010.
-;
-;    2. You will notice many misspelled words in the list. They are not 
-;       mistakes. They are included as these misspelled words appear 
-;       frequently in social media content. 
-;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+im stuck working
+count down
+well im sorry
+all nite long
+year gone
+worth the pain
+spent
+funky
+smell
+console
+please leave comments
+augmented reality
+latest issue
+accidentally open
+leave it open
+squeaky
+pick
+full
+passed
+slow and steady
+busy working
+to crack open
+sorry love
+smells like paint
+again
+beer
+nail
+sounding
+fictional
+winter
+going
+braces
+news
+pick me plssss
+latest shoot
+please never forget
+stupid sun
+badly want one
+wild child
+nose
+hidden
+small
+cheap
+longer
+word
+thought
+seriously
+looks
+teasing
+spare tire
+goes too fast
+well gutted
+year passed by
+freudian
+loud
+split
+bug
+work
+so
+fair warning
+stress level
+crazy talk
+busy year
+late evening
+rest my case
+pillow fight
+still no word
+long
+said
+slow
+wild
+adapter
+ego
+goes
+spent my money
+beauty is pain
+weird dream
+paths will cross
+highly doubt
+tire
+words
+dust
+augmented
+though
+missed
+teething
+bills
+best fight
+just a bug
+bitter sweet
+settle down
+slow drive
+frozen
+cross
+hit us back
+stinking hot
+horror fans
+nice try though
+no sour cream
+extra slow
+main issue
+lemon
+cold
+creature
+down
+stopped
+fighting fit
+you poor baby
+completely missed
+drama
+closed
+strains
+nervous
+supposed to help
+fragile heart
+lone survivor
+collecting dust
+pretty rubbish
+tax
+swallow
+away
+froze
+teething baby
+dark knight gown
+perfect storm
+strange
+unknown
+kick
+cut
+black
+throw
+zombie
+accidentally
+protest
+good lie
+sincere condolences
+cheat code
+overboard
+question
+blues
+spoiler
+crooked
+emotional
+poor vocabulary
+rude fans
+pushed back
+forget to smile
+please im begging
+phone doesn't work
+damn
+lone
+pee
+stranger
+quiz
+liquor
+smells
+football addict
+quit working
+liquor store
+incredibly slow
+let's forget
+what's wrong baby
+just hang in
+capture
+chill
+late
+fall
+#expensive
+like zombie
+cold afternoon
+phone just died
+urgent
+leave
+fussy
+case
+begging
+ridiculously
+left
+super dark
+achy breaky heart
+a little overboard
+low level
+little grunt
+hate to admit
+strange dreams
+mess
+pushed
+storm
+planning on leaving
+odd sense
+miss working
+continue to fight
+stupid romance
+sick of working
+tired
+busy
+rain
+struck
+force
+resist
+low
+weed
+low back
+dinner alone
+kind of crazy
+throw rocks
+like a hurricane
+sad but true
+working out alone
+crazy
+barely
+sigh
+demand
+wait
+odd
+back pain
+fallen angel
+found the debris
+main worry
+dearly missed
+hope i'm wrong
+lack
+stop
+ignoring
+forget
+sinks
+messed
+sososo
+bodies
+boring quotes
+not necessarily sad
+split personality
+white lies
+sensitive issue
+super slow
+miss my puppy
+years
+gun
+issue
+hang
+breaky
+computer just froze
+credit card bills
+stop following posers
+store was closed
+major case
+against
+disagree
+freaking
+weird
+debris
+like im invisible
+hard to fit
+miss the sun
+fussy baby
+poor little baby
+stopped working again
+losing interest
+impossible dream
+invisible
+stuck
+cable
+hospital
+back hurts
+hospital visit
+best revenge
+sore
+doubt
+crack
+donkey
+supposed
+bad sun
+missing
+sad
+broken
+coughing
+warning
+loner
+barely afford
+stupid wisdom
+missed breakfast
+hot mess
+mild headache
+want to steal
+smart ass
+sadder
+fake
+bad
+please stop ignoring
+break ups
+really sore back
+sorry honey
+back is sore
+post holiday blues
+truly missed
+headache
+debt
+impossible
+tears
+burns
+shameless
+fallen
+wrong
+problem
+wonder what's wrong
+broke my promise
+breaking the rules
+still doesn't work
+cable stopped working
+sour
+lost
+baby is sick
+hate shopping
+happy birthday loser
+lost my money
+weapons
+wound
+sneak
+lazy
+hit
+omen
+limited
+break
+wrong love
+can't even swallow
+hard to like
+eat my words
+#expensive #wantit #sad
+just said goodbye
+sorry you're bored
+hunger
+nuclear
+miss
+issues
+achy
+rude
+sorry
+condolences
+gone
+bummed
+steal
+planning against us
+well that sucks
+back strains
+like a donkey
+posers
+fear
+worry
+dreading
+shameless self promotion
+silly question
+urgent care
+bad score
+beast
+breaking
+darn
+wicked
+shot
+nasty hot
+completely messed
+truly broke
+in bad shape
+refuse responsibility
+#exhausted
+hard
+drunk
+bummer
+poor
+broke
+dog found abandoned
+friends left me
+nail just broke
+actual tears
+miss my baby
+shoot
+scary
+unusable
+lack of food
+a genuine loner
+love hurts
+like i'm crazy
+grunt
+blind
+gunfire
+hurricane
+alone
+stinking
+leaving
+never
+missing church today
+sad day indeed
+worth dying
+want to cry
+open wound
+fake money
+real problem
+sad smiley
+homeless heart
+bloody
+disappointing
+problems
+injury
+accident
+my sick friend
+true and sad
+pretty disappointing
+just been sick
+fragile
+jealous
+boring
+stress
+bother
+arrived broken
+a bad deal
+real sad
+scary dream
+headache is back
+like a villain
+incredibly sad
+hate surprises
+damn job
+smells like weed
+might actually cry
+right eye hurts
+hate public transport
+hurt
+quit
+major suckage
+lonely new years
+my heart hurts
+fight
+dark
+crap
+stupid
+junk
+lies
+dread going back
+my poor puppy
+losing faith
+luck is gone
+ignoring my existence
+homeless
+slap
+losses
+gutted
+lonely
+dumped
+plane wreckage found
+guilty conscience
+like a failure
+back injury
+having major issues
+super duper sad
+shooting
+suck
+madness
+fail
+mean
+truly gone
+worst luck
+just looks wrong
+grand theft
+poor effort
+lost respect
+no longer friends
+hurts even more
+completely unusable
+won't even bother
+just so sad
+abandoned
+bitter
+overload
+addiction
+mistakes
+hate dreams
+hate money
+mean friends
+real bummer
+lie
+garbage
+loss
+crushed
+feel like garbage
+new crisis
+fake friends
+food poisoning
+my heart stopped
+fighting
+cry
+losing
+addict
+blood
+stroke
+nightmare
+the worst dream
+heart sinks
+absolute mess
+feel like crying
+im heart broken
+cancer
+mad
+sucks
+rubbish
+loser
+shame
+really bad dream
+absolute nightmare
+horrible daughter
+love sucks
+dreading work today
+no money left
+bleeds
+awfully
+fails
+lost my job
+still won't work
+just got dumped
+you're just jealous
+worst customer service
+bad dreams
+worst dream ever
+great loss
+absolute garbage
+hurts
+stolen
+hate
+shit
+ass
+sick
+crying
+danger
+great shame
+losing hope
+hate working weekends
+bad luck
+heart problems
+coughing fit
+definitely sick
+grim
+upsets
+pissed
+villain
+food posioning
+hope is lost
+refuse
+nasty
+revenge
+cheat
+theft
+hopeless
+dread
+attack
+horrible truth
+great sadness
+rising nuclear danger
+super headache
+no longer care
+feeling pretty sick
+sad news indeed
+horrible friend
+pretty grim
+pain
+failed
+hurting
+job losses
+major pain
+heart breaking moment
+even more depressed
+smells like pee
+my friends suck
+greatest fear
+worst
+depressed
+#sad
+heart pain
+hard to live
+plain sad
+super bummed
+just pissed me
+lost a child
+suckage
+proven guilty
+super sad
+cancer patient
+3rd degree burns
+hurts like hell
+breaking my heart
+just passed away
+just upsets me
+heart is broken
+heart is breaking
+epic fail
+even sadder
+money stolen
+constant pain
+major headache
+badly
+horrible
+poisoning
+hurt like crazy
+kill
+die
+crisis
+super pissed
+real shame
+completely failed
+just broke up
+like hell
+dreams are crushed
+wreckage
+my heart bleeds
+bodies were found
+honestly sucks
+#dog #cruelty
+sadness
+guilty
+heart attack
+horror
+hell
+torture
+failure
+posioning
+hurting real bad
+feel like death
+back in hospital
+completely sucks
+real disaster
+committed suicide
+absolute agony
+devil
+found dead
+feeling like shit
+#cruelty
+death
+agony
+dead
+suicide
+truly hate
+disaster
+like to torture
+please kill me
+just died
+feel like crap
+friend died
+died
+dying
+sucks to live
+offer
+not wait
+counsel
+more careful
+particularly sensitive
+might be right
+fairly accurate
+might be relevant
+crawl
+relatively expensive
+not too difficult
+hedge
+so sensitive
+questionable
+unclear
+must lead
+duty
+make
+cannot wait
+shell
+indefinite
+should care
+circle
+fairly expensive
+might be worth
+mine
+conviction
+will not break
+not lost
+vagueness
+could support
+press
+no serious
+was not short
+ensure
+may not need
+probably fair
+symptom
+less sensitive
+stood
+really expensive
+was no better
+should fit
+might be true
+never need
+had no doubt
+more need
+fairly complex
+may fit
+was very serious
+should be familiar
+enforce
+really short
+not lose
+not too low
+can be expensive
+will not matter
+most sensitive
+less popular
+disclaim
+less interest
+cannon
+cannot hurt
+lay
+could be responsible
+epithet
+could not lose
+less independent
+no know
+could accept
+ambiguous
+staunch
+expensive
+will not harm
+nothing short
+would be sufficient
+coordinate
+should be fair
+need
+does not benefit
+does not know
+was no easy
+too
+no wait
+service
+wait
+miss
+stamp
+run
+was not real
+could be serious
+concern
+load
+could need
+would not wait
+more serious
+might upset
+could not fit
+close
+might support
+could fit
+would have been helpful
+ironic
+actual
+not matter
+not free
+was not able
+would have been able
+must fit
+should be understood
+repair
+point
+divide
+accordance
+not difficult
+might be suitable
+pay
+spare
+less complete
+not familiar
+cost
+welfare
+had no great
+might be sufficient
+major
+might be hard
+not funny
+may pay
+may allow
+artificial
+complexity
+would have been worth
+frank
+confess
+should pay
+would have been difficult
+was no effective
+fix
+wild
+would have been useful
+did not doubt
+too familiar
+so provide
+could be better
+short
+never easy
+not sensitive
+less keen
+can be serious
+suffice
+was so low
+highly sensitive
+rather familiar
+especially sensitive
+selective
+bout
+quite short
+less suitable
+particularly complex
+perplex
+may understand
+not lead
+needle
+blast
+too low
+must be sensitive
+break
+knock
+extremely serious
+extremely short
+could lose
+would have been hard
+irregular
+hunt
+baffle
+does not fit
+defend
+peculiar
+was too low
+capital
+must be better
+uncommon
+inexact
+does not upset
+ambivalent
+incompatible
+brandish
+may support
+not accept
+withhold
+did not wait
+did not need
+could care
+can be better
+would wait
+gaudy
+swear
+confession
+fairly short
+confuse
+never allow
+quite difficult
+will not be able
+should be lost
+rue
+grab
+not keen
+contrary
+no relevant
+did not accept
+would not lead
+tired
+does not matter
+seriousness
+nervous
+faint
+was no real
+fighter
+reactionary
+bafflement
+was too proud
+return
+uneasy
+undue
+cannot know
+irregularity
+will not care
+liquidate
+not enjoy
+may not provide
+does not interest
+motley
+much hard
+backer
+jar
+less effective
+mutter
+was not responsible
+would not matter
+does not lead
+not know
+lone
+would not be pleased
+may be short
+commoner
+fill
+not responsible
+cave
+deter
+highly expensive
+expense
+no fair
+cannot allow
+can be difficult
+have no great
+may not agree
+behalf
+does not complete
+obscure
+blow
+particularly need
+increasingly complex
+could not provide
+particularly serious
+odd
+might be responsible
+spear
+quite complex
+was no serious
+staunchness
+would be worse
+split
+would doubt
+rather expensive
+back
+would be expensive
+had no need
+was very short
+disputable
+could not hope
+was more difficult
+would not be worth
+can be effective
+may fail
+temptation
+may be worse
+so complex
+grapple
+would be lost
+quite sensitive
+arbitrary
+injunction
+misunderstood
+does not wait
+must pay
+reluctant
+would not be fair
+might care
+not interested
+had no real
+inhibit
+would not agree
+restless
+was so short
+does not need
+undone
+not very attractive
+was not relevant
+vague
+avoid
+no easy
+cannot understand
+was not important
+inhibition
+no fit
+irony
+was more complex
+was so serious
+haziness
+pound
+was not fit
+could be hard
+was no special
+unfavorable
+hamper
+would break
+iron
+not very successful
+most serious
+chore
+was too serious
+did not interest
+interference
+will not understand
+nothing important
+might lose
+rather short
+no better
+limit
+should be careful
+can be wrong
+less dangerous
+startle
+worn
+tax
+have no real
+dominate
+could not allow
+lower
+must be difficult
+would not be true
+no responsible
+extremely sensitive
+would be relevant
+rampant
+not understood
+never hurt
+unavoidable
+radical
+too serious
+not sufficient
+will not pay
+will not allow
+could upset
+will not wait
+cheap
+strict
+will not be happy
+was not keen
+would not be suitable
+could not accept
+horn
+isolate
+not need
+was not fair
+really low
+pretend
+secret
+would not accept
+could be wrong
+tedious
+controversial
+less easy
+might be difficult
+no benefit
+disconcerted
+would not be able
+counteraction
+struck
+might break
+did not understand
+very complex
+no complete
+too complex
+foreign
+unsteady
+fall
+commotion
+stuffy
+turn
+have no significant
+was no independent
+dig
+not understand
+would be difficult
+nothing funny
+may not accept
+tension
+would not be appropriate
+was not interested
+abrupt
+unnecessary
+did not know
+would not understand
+formidable
+bit
+complication
+try
+so low
+less fit
+cross
+extremely complex
+block
+marginal
+was not popular
+less free
+not independent
+bury
+backward
+may doubt
+fairly low
+much more expensive
+retreat
+no short
+bug
+rather hard
+quite serious
+hysterical
+would not allow
+too sensitive
+much more complex
+does not accept
+would not benefit
+sorry
+not very important
+omission
+would not be sufficient
+desert
+too short
+mar
+board
+naive
+did not pay
+sentence
+was too short
+was not sufficient
+would not help
+no important
+extremely expensive
+object
+would not be right
+extinguish
+quite poor
+sly
+hit
+doubt
+does not help
+probably know
+less attractive
+undermine
+protest
+was too afraid
+was more serious
+would be hard
+had no right
+homely
+shake
+never know
+fairly hard
+complex
+lose
+may not lead
+less true
+would upset
+feverish
+impediment
+really lost
+may not understand
+less support
+does not agree
+temper
+should break
+trick
+can be hard
+pretty hard
+insignificant
+highly complex
+consumptive
+less accurate
+chase
+indifference
+may lose
+no free
+meager
+rebut
+less useful
+may be wrong
+less interested
+would not be interested
+was not complete
+not special
+might fail
+did not agree
+not very effective
+shrewd
+anxious
+was not true
+hollow
+was more expensive
+was no great
+hungry
+no significant
+very serious
+not effective
+aggressive
+belt
+allegation
+no help
+relatively low
+was very wrong
+will not know
+challenge
+may be lost
+could wait
+knife
+never understand
+rogue
+shrug
+restrict
+costly
+not short
+not fair
+no special
+must break
+would be low
+must be able
+low
+unwilling
+would not provide
+not too great
+not very nice
+does not pay
+can lose
+intervention
+less successful
+was very expensive
+could be worse
+may be low
+less helpful
+was too expensive
+so expensive
+bullet
+so short
+prohibition
+impersonal
+no right
+could fail
+dim
+will not be interested
+pinch
+very very expensive
+quite low
+may upset
+have no independent
+was really hard
+does not enjoy
+contradict
+relatively poor
+interrupt
+difficulty
+no real
+probably lost
+bewilderment
+overlook
+excessive
+relatively difficult
+did not lead
+complicity
+undependable
+not too happy
+no effective
+fist
+inexplicable
+drag
+defy
+can ill
+nothing worth
+disprove
+pretty serious
+curt
+unequal
+was not safe
+less relevant
+constrain
+troublesome
+would not be free
+interruption
+not able
+not very happy
+not support
+too independent
+was not pleased
+collapse
+so serious
+not very useful
+might be lost
+more lost
+rather serious
+not important
+rip
+cannot support
+could not care
+not pay
+cold
+fever
+hard
+would have been lost
+did not love
+could be difficult
+unsteadiness
+would be afraid
+dispute
+blind
+not helpful
+fatigue
+less familiar
+badly
+no interest
+was not happy
+avoidance
+was not good
+must be ill
+not very helpful
+could be hurt
+presumptuous
+was not worth
+was too poor
+alien
+would not need
+unwise
+engulf
+was not free
+had no special
+slump
+bar
+may break
+could hurt
+very expensive
+does not provide
+less need
+force
+screech
+could ill
+disturb
+did not provide
+no suitable
+hardship
+less appropriate
+was not funny
+very very serious
+was not suitable
+not right
+can break
+dismiss
+never complete
+does not support
+can be lost
+was not easy
+will not lead
+bother
+no fun
+will not be responsible
+would lose
+withheld
+had no independent
+more hard
+nothing worse
+could not support
+not very interested
+can be bad
+shortcoming
+would not enjoy
+could not pay
+avenge
+snatch
+was very low
+could break
+too expensive
+complicate
+dispose
+did not benefit
+amiss
+not accurate
+never pay
+could not help
+have no right
+defect
+bite
+crush
+coward
+was more trouble
+bad
+pretty short
+probably wrong
+could not enjoy
+was not significant
+hunger
+was not familiar
+will not enjoy
+will not fit
+tire
+may be difficult
+alarm
+guerrilla
+cannot enjoy
+will not accept
+suspect
+careless
+decrease
+dilemma
+drunk
+excess
+charge
+plot
+particularly difficult
+rebel
+would not fit
+not complete
+contend
+unimportant
+was no help
+negation
+owe
+was not nice
+quandary
+not very keen
+decline
+uncomfortable
+really hard
+disbelief
+not help
+precarious
+kick
+fruitless
+will not provide
+no love
+quite wrong
+less good
+confront
+awkward
+worrier
+not pleased
+grumble
+less important
+not appropriate
+provoke
+have no love
+vain
+deterrent
+no support
+division
+opponent
+cannot agree
+not agree
+beat
+disavowal
+breach
+had no significant
+rather difficult
+much more difficult
+unwillingness
+capture
+not relevant
+misunderstand
+so afraid
+should lose
+bound
+shallow
+shortage
+hinder
+indictment
+not significant
+empty
+no great
+quite upset
+domination
+not too good
+had no interest
+may not care
+not allow
+never accept
+opposition
+sadness
+was too complex
+too poor
+nag
+puny
+cannot accept
+less happy
+limitation
+was very hard
+interfere
+fat
+screw
+rather worse
+not fit
+discord
+unstable
+trap
+could not understand
+must be wrong
+discomfort
+coarse
+anxiousness
+most complex
+irritable
+loss
+not popular
+was no true
+misbehavior
+will not support
+disagree
+discharge
+skeptical
+can harm
+did not matter
+seize
+would have been worse
+strain
+would not be easy
+undo
+was too upset
+pretty low
+can doubt
+quit
+have no interest
+no accurate
+dark
+no pay
+can upset
+error
+mean
+does not care
+not great
+will not be complete
+not very easy
+tear
+doubtful
+will not be worth
+could not agree
+not good
+depreciation
+instable
+no need
+FALSE
+very hard
+was not understood
+accident
+particularly poor
+was not accurate
+unreliability
+waste
+suspicion
+dirt
+exclude
+had no hope
+unpleasant
+whine
+very very low
+would hurt
+haphazard
+confound
+push
+was not helpful
+did not support
+more afraid
+oust
+puzzlement
+contradictory
+incorrect
+not suitable
+compulsion
+abnormal
+would be very difficult
+may not help
+will not be appropriate
+very low
+less able
+was not great
+untrue
+not care
+not attractive
+blunt
+gamble
+bothersome
+have no need
+would be very hard
+hung
+stark
+could be lost
+cannot help
+would not be safe
+denial
+disappointment
+infringement
+darkness
+stress
+mistake
+dumb
+drown
+controversy
+incompatibility
+incessant
+would be bad
+constraint
+poor
+delay
+apprehension
+cannot love
+may be bad
+cut
+deadlock
+vice
+was not careful
+could be bad
+did not allow
+unauthentic
+so hard
+regret
+difficult
+chronic
+lazy
+suppress
+increasingly expensive
+impose
+was quite difficult
+not useful
+unfortunate
+did not help
+would not be good
+was too difficult
+fled
+more wrong
+broke
+infiltration
+not better
+no care
+was really upset
+critic
+worry
+strike
+perturb
+dump
+against
+not very accurate
+pretty difficult
+dubious
+litter
+ridiculous
+scream
+would not support
+scheme
+falter
+drop
+cannot fit
+not very popular
+much more serious
+detrimental
+would not pay
+obstacle
+much doubt
+confine
+omit
+no independent
+really upset
+headache
+negate
+does not understand
+not careful
+will not help
+fire
+more trouble
+quite hard
+irrational
+was so difficult
+was really ill
+undid
+would not care
+arrest
+did not complete
+unsuccessful
+rough
+too hard
+will not be successful
+rather doubt
+not worth
+no good
+rather stupid
+confusion
+propaganda
+deny
+disavow
+less real
+adverse
+mess
+was too hard
+sickly
+accuse
+disposal
+was not love
+no true
+not true
+taunt
+explosion
+less safe
+was not appropriate
+disorganized
+mislead
+was very afraid
+storm
+must lose
+was no fun
+fallout
+sick
+dislike
+was very difficult
+slash
+frown
+unjustified
+insecure
+regression
+not very good
+beware
+never understood
+pretty poor
+rival
+stupidity
+raid
+very poor
+battle
+no useful
+inability
+beg
+was no significant
+insecurity
+backwardness
+slam
+conceal
+should fail
+never good
+depreciate
+cannot pay
+was very ill
+manipulate
+increasingly hard
+did not enjoy
+argue
+not successful
+did not care
+not proud
+will not benefit
+feeble
+atrophy
+pretty stupid
+was not right
+must be hard
+disagreeable
+did not fit
+may be hard
+loner
+dull
+ignorance
+most stupid
+rather bad
+upset
+can fail
+no safe
+extremely low
+loneliness
+no happy
+prisoner
+deficiency
+swore
+criticize
+defective
+would be hurt
+too afraid
+ominous
+nonsense
+stupid
+blunder
+frustrate
+defensive
+could be dangerous
+fault
+prosecution
+melodramatic
+more ill
+haunt
+distort
+liquidation
+prohibit
+pandemonium
+exclusion
+meaningless
+was particularly difficult
+not nice
+cannot provide
+so difficult
+unreliable
+less significant
+particularly hard
+particularly low
+crazy
+increasingly difficult
+desperate
+sank
+too difficult
+really difficult
+must need
+loveless
+stole
+so lost
+fought
+was no hope
+insidious
+dirty
+was very poor
+very very difficult
+would not be happy
+inadequate
+refusal
+superficial
+trouble
+rather low
+impatience
+might be wrong
+scar
+lie
+abyss
+not too keen
+cynical
+unlucky
+could not love
+stubborn
+aggravation
+most poor
+quite bad
+might be dangerous
+unhappy
+more upset
+sad
+oppose
+was so upset
+undependability
+disagreement
+discourage
+absurd
+so upset
+bondage
+arrogant
+lonely
+gun
+was so bad
+was not successful
+particularly bad
+ambush
+disorder
+really hurt
+bitterness
+was no good
+does not love
+shock
+stolen
+neglect
+elimination
+fight
+cannot benefit
+would be trouble
+shoot
+suspicious
+rather poor
+very difficult
+frustration
+fool
+too stupid
+can be dangerous
+rupture
+assail
+chaos
+gloomy
+hindrance
+deficit
+furious
+prohibitive
+reckless
+was too bad
+not happy
+was particularly bad
+will not agree
+curse
+eliminate
+disturbance
+was too ill
+divorce
+extremely hard
+unsatisfactory
+struggle
+abolish
+does not allow
+was no love
+selfish
+useless
+gloom
+forfeit
+unfit
+was so hard
+complaint
+disappoint
+rebellion
+could harm
+severity
+ignorant
+most difficult
+annoyance
+not real
+steal
+frantic
+problem
+especially difficult
+too bad
+combat
+ugly
+bore
+discontent
+was too dangerous
+untrustworthy
+would be dangerous
+much trouble
+damage
+afflict
+will not be sufficient
+snarl
+not provide
+impede
+quarrel
+guilty
+was so poor
+ghetto
+unqualified
+so hurt
+antagonistic
+extremely poor
+shame
+segregation
+so bad
+dismal
+shot
+disadvantageous
+scare
+perilous
+regress
+conspiracy
+really poor
+anger
+nothing good
+endanger
+so wrong
+misfortune
+very afraid
+may be dangerous
+will not be easy
+darken
+irritation
+deprive
+might harm
+abandon
+ill
+punish
+aggression
+cannot hope
+guilt
+was very bad
+chaotic
+burden
+lack
+quite ill
+suppression
+gunmen
+more stupid
+very upset
+was very upset
+forbid
+very stupid
+sickness
+depress
+quite dangerous
+aggravate
+banish
+agitation
+so ill
+was really bad
+explosive
+pollution
+never able
+sin
+inferior
+complain
+despair
+very very hard
+was so stupid
+frighten
+crime
+emergency
+much harm
+was so ill
+panic
+was so afraid
+so poor
+smash
+insufficient
+scold
+much worse
+liar
+sorrow
+thwart
+reject
+irresponsible
+assault
+deceptive
+harsh
+prejudice
+worse
+afraid
+betray
+might hurt
+especially bad
+wrong
+would fail
+more bad
+negative
+whip
+slayer
+scared
+instability
+more difficult
+hopeless
+threat
+hostility
+refuse
+jail
+sufferer
+burn
+appall
+hazard
+blame
+damn
+resent
+bloody
+very very poor
+failure
+fearful
+incapable
+disapprove
+fail
+injurious
+distress
+monster
+argument
+belittle
+loser
+forbidden
+foolish
+obstruct
+wound
+will not be pleased
+confrontation
+suffer
+really ill
+disadvantage
+would harm
+not safe
+despise
+angry
+rejection
+alienation
+extremely difficult
+very bad
+not love
+resentment
+very wrong
+deceive
+aggressiveness
+fury
+really bad
+bitter
+slanderer
+affliction
+devoid
+unjust
+maladjusted
+really dangerous
+spoil
+too ill
+stifle
+strife
+was quite wrong
+unfair
+bleak
+too upset
+obnoxious
+no hope
+more dangerous
+much more dangerous
+too dangerous
+grief
+violation
+worthless
+ridicule
+destroy
+so stupid
+would be stupid
+dangerous
+agitate
+threaten
+killer
+goddamn
+disease
+vengeance
+rather dangerous
+very ill
+anxiety
+hell
+lost
+highly dangerous
+monstrous
+lying
+impair
+pretty bad
+harm
+hater
+antagonism
+choke
+most dangerous
+so dangerous
+was very dangerous
+ashamed
+spite
+more harm
+rage
+illness
+degenerate
+very dangerous
+disgust
+conflict
+deplore
+butchery
+convict
+ghastly
+helpless
+severe
+painful
+poverty
+crisis
+mourn
+bomb
+demolish
+violate
+injury
+agony
+antagonize
+attack
+have no hope
+disastrous
+decay
+maladjustment
+vile
+hostile
+mad
+depression
+disaster
+dead
+grim
+enemy
+awful
+devastate
+destructive
+grotesque
+hideous
+ruin
+violence
+tyranny
+more hurt
+extremely bad
+displeasure
+grudge
+dreadful
+anguish
+warfare
+must fail
+vicious
+trauma
+defeat
+miserable
+hate
+deception
+hurt
+corruption
+very very bad
+cruelty
+prison
+jeopardize
+bastard
+cancer
+manslaughter
+hazardous
+very very dangerous
+harmful
+demoralize
+deadly
+offensive
+extremely dangerous
+fear
+really stupid
+desolate
+devil
+plague
+horror
+doom
+particularly dangerous
+worst
+condemn
+terrible
+sinister
+kill
+demise
+exploit
+hatred
+jerk
+can hurt
+brutality
+abuse
+destruction
+misery
+atrocious
+treacherous
+turmoil
+catastrophe
+cruel
+death
+horrible
+pain
+deplorable
+danger
+repulse
+criminal
+repulsive
+violent
+evil
+dying
+menace
+grave
+murder
+terror
+tragic
 2-faced
 2-faces
 abnormal

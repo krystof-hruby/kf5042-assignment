@@ -1,53 +1,23 @@
-function main
-    % Clear workspace and console
-    clc; clear;
+% Clear workspace and console
+clc; clear;
 
-    % TODO:
-    % loads data from opinion-lexicon-English
-    data = readLexicon;
+% Load training data from lexicons into the workspace
+data = loadLexicon;
 
-    % split data into training and testing (10%)
-    numWords = size(data,1);
-    cvp = cvpartition(numWords,'HoldOut',0.1);
-    dataTrain = data(training(cvp),:);
-    dataTest = data(test(cvp),:);
-    % TODO END
+% Split data into training and testing sets
+testingAmount = 0.05; % 5% reserved for testing
+[data_Training, data_Testing] = splitData(data, testingAmount);
 
-    % Create a sentiment classifier (class)
-    sentimentClassifier = SentimentClassifier;
-    
-    % Train the sentiment classifier
-    sentimentClassifier.Train(dataTrain);
+% Create a sentiment classifier (class)
+sentimentClassifier = SentimentClassifier;
 
-    % Test the sentiment classifier
-    % Calculates the confusion matrix and accuracy of the trained model
-    sentimentClassifier.Test(dataTest.Word, dataTest.Label, "visualize");
+% Train the sentiment classifier
+sentimentClassifier.Train(data_Training);
 
-    % Example use of the classifier (can be used once trained):
-    textData = "Trash, shit, bad, horrible";
-    sentimentClassifier.Classify(textData);
-end
+% Test the sentiment classifier
+% Calculates the confusion matrix and accuracy of the trained model
+sentimentClassifier.Test(data_Testing, "visualize");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+% Example use of the classifier (can be used once trained):
+textData = "The product was not very good.";
+sentimentClassifier.Classify(textData);
