@@ -47,7 +47,7 @@ classdef SentimentClassifier < handle
             falseNegatives = confusionMatrix(2,1);
             classificationAccuracy = (truePositives + trueNegatives) / (truePositives + trueNegatives + falsePositives + falseNegatives) * 100;
             
-            % Print the confusion matrix onto the console
+            % Print the confusion matrix and accuracy onto the console
             fprintf("True positives: %d\n", truePositives);
             fprintf("True negatives: %d\n", trueNegatives);
             fprintf("False positives: %d\n", falsePositives);
@@ -62,15 +62,15 @@ classdef SentimentClassifier < handle
         end
 
         % Classifies sentiment of data
-        function prediction = Classify(obj, data)
+        function prediction = Classify(obj, text)
             % Convert text into word-vectors using word2vec from fastTextWordEmbedding toolbox
-            data_WordVectors = word2vec(obj.FTWEmbedding, data);
+            data_WordVectors = word2vec(obj.FTWEmbedding, text);
 
             % Predict the sentiment
             [prediction,~] = predict(obj.Model, data_WordVectors);
 
             % Print the prediction onto the console
-            fprintf("%s => %s\n", data, prediction);
+            fprintf("%s => %s\n", text, prediction);
         end
     end
 end
