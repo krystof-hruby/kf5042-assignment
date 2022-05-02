@@ -8,6 +8,13 @@ classdef SentimentClassifier < handle
         Model
     end
 
+    % PUBLIC PROPERTIES
+    properties (Access = public)
+        ClassificationAccuracy
+        ClassificationPrecision
+        ClassificationRecall
+    end
+
     % PUBLIC METHODS
     methods (Access = public)
         % Constructor
@@ -32,7 +39,7 @@ classdef SentimentClassifier < handle
         end
 
         % Tests the classifier on known data and shows the results as a confusion matrix and its accuracy
-        function prediction = Test(obj, data, visualize)
+        function [obj, prediction] = Test(obj, data, visualize)
             % Convert words into word-vectors using word2vec from fastTextWordEmbedding toolbox
             predictionData_WordVectors = word2vec(obj.FTWEmbedding, data.Text);
             
@@ -46,13 +53,21 @@ classdef SentimentClassifier < handle
             falsePositives = confusionMatrix(1,2);
             falseNegatives = confusionMatrix(2,1);
             classificationAccuracy = (truePositives + trueNegatives) / (truePositives + trueNegatives + falsePositives + falseNegatives) * 100;
-            
+            classificationPrecision = truePositives / (truePositives + falsePositives) * 100;
+            classificationRecall = truePositives / (truePositives + falseNegatives) * 100;
+
+            obj.ClassificationAccuracy = classificationAccuracy;
+            obj.ClassificationPrecision = classificationPrecision;
+            obj.ClassificationRecall= classificationRecall;
+
             % Print the confusion matrix and accuracy onto the console
             fprintf("True positives: %d\n", truePositives);
             fprintf("True negatives: %d\n", trueNegatives);
             fprintf("False positives: %d\n", falsePositives);
             fprintf("False negatives: %d\n", falseNegatives);
-            fprintf("Accuracy: %d%%\n", round(classificationAccuracy));
+            fprintf("Accuracy: %d\n", round(classificationAccuracy));
+            fprintf("Precision: %d\n", round(classificationPrecision));
+            fprintf("Recall: %d\n", round(classificationRecall));
 
             % Visualize the confusion matrix
             if nargin == 3 && visualize == "visualize"
