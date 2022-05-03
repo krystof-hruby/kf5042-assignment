@@ -45,7 +45,7 @@ classdef SentimentClassifier < handle
             
             % Predict the sentiment
             [prediction, ~] = predict(obj.Model, predictionData_WordVectors);
-            
+
             % Create confusion matrix for the classification
             confusionMatrix = confusionmat(data.Label, prediction);
             truePositives = confusionMatrix(1,1);

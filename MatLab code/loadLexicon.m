@@ -1,8 +1,8 @@
 % Helper function, which loads imported lexicons
 function data = loadLexicon
-    % Read lists of positive and negative texts from file
-    file_PositiveTexts = fopen(fullfile('sentiment-lexicon','positive_words_de.txt'));
-    file_NegativeTexts = fopen(fullfile('sentiment-lexicon','negative_words_de.txt'));
+    % Read lists of positive and negative texts from the lexicon
+    file_PositiveTexts = fopen(fullfile('sentiment-lexicon','positive-texts.txt'));
+    file_NegativeTexts = fopen(fullfile('sentiment-lexicon','negative-texts.txt'));
     
     textscan_PositiveTexts = textscan(file_PositiveTexts, '%s');
     textscan_NegativeTexts = textscan(file_NegativeTexts, '%s');
