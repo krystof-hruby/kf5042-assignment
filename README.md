@@ -1,15 +1,15 @@
 # KF5042 Intelligent Systems Assignment
 
-Name: Hruby Krystof
+Name: __Hruby Krystof__
 
-User ID: W20021023
+User ID: __W20021023__
 
-Course: Computer Science with Games Development
+Course: __Computer Science with Games Development__
 
-Module Code: KF5042
+Module Code: __KF5042__
 
-Module Title: Intelligent Systems
+Module Title: __Intelligent Systems__
 
-Submission Date: 4. 5. 2022
+Submission Date: __4. 5. 2022__
 
-Word Count: 2609
+Word Count: __2609__
