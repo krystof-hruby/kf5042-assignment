@@ -88,7 +88,7 @@ In some cases, traditional sentiment analysis using one the three aforementioned
 \subsection{Machine Learning and Lexicon-Based Approach}
 Approaches to sentiment analysis include machine learning and lexicon-based algorithms. Machine learning approaches utilize machine learning models built for sentiment analysis. Lexicon-based approaches are dependent on a sentiment lexicon – a collection of pre-processed text with known sentiment classification.
 
-Machine learning approaches tend to be more accurate, however they require a training phase, which must be conducted before they can be utilized [4]. Lexicon-base approaches, on the other hand, do not have any such limitations and are thus more widely utilized by the marketing research community [4]. Machine learning approaches can be then further divided into supervised and unsupervised learning, lexicon-based approaches into dictionary- and corpus-based [11]. Hybrids and combinations of both approaches can be also used in some cases [4] , [11], [16].
+Machine learning approaches tend to be more accurate, however they require a training phase, which must be conducted before they can be utilized [4]. Lexicon-base approaches, on the other hand, do not have any such limitations and are thus more widely utilized by the marketing research community [4]. Machine learning approaches can be then further divided into supervised and unsupervised learning, lexicon-based approaches into dictionary- and corpus-based [11]. Hybrids and combinations of both approaches can be also used in some cases [4], [11], [16].
 
 Below are some examples of algorithms utilized in the domain of sentiment analysis and their brief descriptions.
 
@@ -118,11 +118,11 @@ Dictionary-based approaches utilize a manually created word dictionary with posi
 \section{AI Experiments}
 The experiments which were conducted showcase an elementary binary sentiment classifier, which uses support vector machine algorithm as its model. The classifier was programmed and developed in MatLab [10]. Datasets used for training the model (and for which were thus the results calculated) were [9], [12] and [13], however the classifier was coded to be universal and can be trained with any (binary) sentiment lexicon. The datasets used contain elementary English words and phrases; some other datasets which can be used are [8] – datasets gathered from top communities on a popular website “reddit” [17] and historical datasets corresponding to past years, and [18] – sentiment datasets for 81 languages.
 
-The sentiment classifier is a class with three public methods – Train, Test and Classify (Appendix I). The Train method takes in the training data and trains a model using the support vector machine algorithm. The Test method takes in the testing data, predicts sentiment of the data with the trained model and compares its prediction with true values, then produces the results as a confusion matrix (true/false positives/negatives) and calculates its accuracy (\begin{math}(true\ positives + true\ negatives) \div (true\ positives + true\ negatives + false\ positives + false\ negatives)\end{math}), precision (\begin{math}true\ positives \div (true\ positives + false\ positives)\end{math}) and recall (\begin{math}true\ positives \div (true\ positives + false\ negatives)\end{math}). The Classify method takes in a text to be classified and predicts its sentiment with the trained model. Demonstration of the sentiment classifier can be seen by running the main function (Appendix II, III and IV).
+The sentiment classifier is a class with three public methods – Train, Test and Classify (Appendix A). The Train method takes in the training data and trains a model using the support vector machine algorithm. The Test method takes in the testing data, predicts sentiment of the data with the trained model and compares its prediction with true values, then produces the results as a confusion matrix (true/false positives/negatives) and calculates its accuracy (\begin{math}(true\ positives + true\ negatives) \div (true\ positives + true\ negatives + false\ positives + false\ negatives)\end{math}), precision (\begin{math}true\ positives \div (true\ positives + false\ positives)\end{math}) and recall (\begin{math}true\ positives \div (true\ positives + false\ negatives)\end{math}). The Classify method takes in a text to be classified and predicts its sentiment with the trained model. Demonstration of the sentiment classifier can be seen by running the main function (Appendix B).
 
 \subsection{Support Vector Machine}
 The sentiment classifier uses the support vector machine algorithm for its training and subsequent classifying.
-Support vector machine is a supervised machine learning algorithm, which creates a non-probabilistic binary (two-class) linear classifier. The objective of a support vector machine is to find an (N-1)-dimensional hyperplane in an N-dimensional space, which separates data points into distinct categories (Appendix V). New data is then classified using this support vector classifier. Support vector machines were first devised by Vladimir Vapnik and his colleagues at AT \& T Bell Laboratories in 1995 [3].
+Support vector machine is a supervised machine learning algorithm, which creates a non-probabilistic binary (two-class) linear classifier. The objective of a support vector machine is to find an (N-1)-dimensional hyperplane in an N-dimensional space, which separates data points into distinct categories (Appendix C). New data is then classified using this support vector classifier. Support vector machines were first devised by Vladimir Vapnik and his colleagues at AT \& T Bell Laboratories in 1995 [3].
 
 The first step of the algorithm is to represent text as vectors. These are plotted as data points onto a space. The algorithm then calculates a hyperplane with the largest margin between the categories of the data vectors. The points that are the closest to the hyperplane are called support vectors; these points ultimately decide the final orientation of the hyperplane. If the space is 1-dimensional (line), the hyperplane will be a point, if the space is 2-dimensional (plane), the hyperplane will be a line, if the space is 3-dimensional (space), the hyperplane will be a plane, etc.
 
@@ -137,7 +137,7 @@ The model tested in this paper achieved 82\% mean accuracy (the amount of true c
 
 The classifier reaches high accuracy when applied to words and short phrases, however its accuracy falls at 50\% (at the level of a coinflip), when tried onto sentences or larger text blocks. To mitigate this, the text classified can be pre-processed by tokenizing (splitting sentences into individual words), each word classified separately, and the final result then computed from classifications of the separate words. This approach has a major downside, however, since it does not take negators into account – for example “not good” will be classified as positive (as if it meant “good”, instead of “bad”), which severely diminishes the gains acquired through these means. The model is also unable to dissect aspects, which means it cannot properly classify comparative statements (i.e., “Product X is good, but product Y is not”). A more robust corpus-based algorithm would have to be built upon this model to make it practical in such scenarios. Similar results were recorded by Selamat and Zainuddin [21] with 70\% to 80\% accuracy for unigrams and only 50\%-55\% accuracy for trigrams.
 
-The particular datasets used for training the model also affect performance. When trained with datasets compiled from the most popular communities on reddit [8], the accuracy varied from 70\% to 80\% depending on the specific community datasets. The accuracy of the model trained with language specific datasets [18] ranged even more widely. With some languages, the model was completely unable to correctly categorize positive sentiments (for example Czech, Hungarian), with others, it outperformed the English classifier by significant margins (for example Simplified Chinese). This variance is to be expected, as the datasets are quite modest, and the support vector machine algorithm is thus incapable of building an adequate separation hyperplane. Exact accuracies, precisions and recalls of models trained on these datasets can be found in Appendix VII.
+The particular datasets used for training the model also affect performance. When trained with datasets compiled from the most popular communities on reddit [8], the accuracy varied from 70\% to 80\% depending on the specific community datasets. The accuracy of the model trained with language specific datasets [18] ranged even more widely. With some languages, the model was completely unable to correctly categorize positive sentiments (for example Czech, Hungarian), with others, it outperformed the English classifier by significant margins (for example Simplified Chinese). This variance is to be expected, as the datasets are quite modest, and the support vector machine algorithm is thus incapable of building an adequate separation hyperplane. Exact accuracies, precisions and recalls of models trained on these datasets can be found in Appendix D and Appendix E.
 
 % --- Conclusion and Future Work ---
 \section{Conclusion and future work}
@@ -148,6 +148,9 @@ There are many approaches to creating models for sentiment analysis, ranging fro
 Support vector machines are one of the best and most widely adopted algorithms for sentiment analysis, with high classification accuracies for words or short phrases, but with lesser regard for larger texts or aspect-level classification. Using their advantages in a hybrid configuration alongside other algorithms might yield the best results. One of such approaches is described in [22].
 
 % --- Appendix
+
+\newpage  % Put appendix onto a separate page
+
 \appendices
 \section{Sentiment Classifier Class}
 \begin{lstlisting}[basicstyle=\small, breaklines=true, postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}]
@@ -271,18 +274,22 @@ textData = "The product was not very good.";
 sentimentClassifier.Classify(textData);
 \end{lstlisting}
 
+\newpage % Put other appendices on a separate page
+
 \section{Support Vector Machine}
 This graph showcases the classification technique of a support vector machine. A hyperplane with the largest margin from both sets of data points separates data into two distinct categories.
 
 The blue and red circles represent individual data points (with 2 classified features). The green line represents the classification hyperplane (in a 2-dimensional space a line).
 \begin{center}
-  \includegraphics[scale=1.2]{support-vector-machine-showcase-graph.png}
+  \includegraphics[scale=1.7]{support-vector-machine-showcase-graph.png}
 \end{center}
 
 \section{Reddit Communities Datasets}
 \begin{center}
   \includegraphics[scale=0.24]{reddit-communities-datasets.png}
 \end{center}
+
+\newpage % Fix page spacing
 
 \section{World Languages Datasets}
 \begin{center}

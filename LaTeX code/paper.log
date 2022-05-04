@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  4 MAY 2022 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  4 MAY 2022 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -370,162 +370,163 @@ Underfull \hbox (badness 7595) in paragraph at lines 121--122
 \OT1/ppl/m/n/12 Demon-stra-tion of the sen-ti-ment clas-si-fier
  []
 
-[3] [4]
-LaTeX Font Info:    Trying to load font information for OML+ppl on input line 157.
+[3] [4] [5]
+LaTeX Font Info:    Trying to load font information for OML+ppl on input line 160.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omlppl.fd
 File: omlppl.fd 
 )
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 157.
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 186.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 160.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 189.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [5]
-Overfull \hbox (12.06369pt too wide) in paragraph at lines 200--202
+)
+Overfull \hbox (12.06369pt too wide) in paragraph at lines 203--205
 [][][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 217.
+ [6]
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 220.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 217.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
 LaTeX Font Info:    Font shape `OML/ppl/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 241.
-<./Assets//support-vector-machine-showcase-graph.png, id=31, 130.086pt x 130.086pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 244.
+ [7]
+<./Assets//support-vector-machine-showcase-graph.png, id=35, 130.086pt x 130.086pt>
 File: ./Assets//support-vector-machine-showcase-graph.png Graphic file (type png)
 <use ./Assets//support-vector-machine-showcase-graph.png>
-Package pdftex.def Info: ./Assets//support-vector-machine-showcase-graph.png  used on input line 279.
-(pdftex.def)             Requested size: 156.10239pt x 156.10239pt.
-<./Assets//reddit-communities-datasets.png, id=33, 1165.35374pt x 671.50874pt>
+Package pdftex.def Info: ./Assets//support-vector-machine-showcase-graph.png  used on input line 284.
+(pdftex.def)             Requested size: 221.14522pt x 221.14522pt.
+<./Assets//reddit-communities-datasets.png, id=37, 1165.35374pt x 671.50874pt>
 File: ./Assets//reddit-communities-datasets.png Graphic file (type png)
 <use ./Assets//reddit-communities-datasets.png>
-Package pdftex.def Info: ./Assets//reddit-communities-datasets.png  used on input line 284.
+Package pdftex.def Info: ./Assets//reddit-communities-datasets.png  used on input line 289.
 (pdftex.def)             Requested size: 279.69061pt x 161.16539pt.
 
-Overfull \hbox (26.64075pt too wide) in paragraph at lines 284--285
+Overfull \hbox (26.64075pt too wide) in paragraph at lines 289--290
  [] 
  []
 
-<./Assets//world-languages-datasets.png, id=34, 1164.35pt x 665.48625pt>
+<./Assets//world-languages-datasets.png, id=38, 1164.35pt x 665.48625pt>
 File: ./Assets//world-languages-datasets.png Graphic file (type png)
 <use ./Assets//world-languages-datasets.png>
-Package pdftex.def Info: ./Assets//world-languages-datasets.png  used on input line 289.
+Package pdftex.def Info: ./Assets//world-languages-datasets.png  used on input line 296.
 (pdftex.def)             Requested size: 279.4497pt x 159.71996pt.
 
-Overfull \hbox (26.39984pt too wide) in paragraph at lines 289--290
+Overfull \hbox (26.39984pt too wide) in paragraph at lines 296--297
  [] 
  []
 
-[7 <./Assets//support-vector-machine-showcase-graph.png> <./Assets//reddit-communities-datasets.png> <./Assets//world-languages-datasets.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+[8 <./Assets//support-vector-machine-showcase-graph.png> <./Assets//reddit-communities-datasets.png> <./Assets//world-languages-datasets.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 []\OT1/ppl/m/n/9 Coppola D., \OT1/ppl/m/it/9 E-commerce world-wide { statis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 \OT1/ppl/m/it/9 tics & facts\OT1/ppl/m/n/9 , Statista, Feb. 2022. Ac-cessed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 \OT1/ppl/m/n/9 on May. 5, 2022. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 \OT1/ppl/m/n/9 https://://www.statista.com/topics/871/online-
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 304--305
+Underfull \hbox (badness 5189) in paragraph at lines 311--312
 []\OT1/ppl/m/n/9 Corinna, C. and Vap-nik V., \Sup-port vec-tor Net-
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 304--305
+Underfull \hbox (badness 1448) in paragraph at lines 311--312
 \OT1/ppl/m/n/9 works," \OT1/ppl/m/it/9 Mach Learn 20\OT1/ppl/m/n/9 , pp. 273-297, Sep. 1995, doi:
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 313--314
+Underfull \hbox (badness 3088) in paragraph at lines 320--321
 []\OT1/ppl/m/n/9 Friedman N. \OT1/ppl/m/it/9 et al.\OT1/ppl/m/n/9 , \Bayesian Net-work Clas-si-fiers,"
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 313--314
+Underfull \hbox (badness 5519) in paragraph at lines 320--321
 \OT1/ppl/m/it/9 Ma-chine Learn-ing 29\OT1/ppl/m/n/9 , pp. 131-163, Nov. 1997, doi:
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 322--323
+Underfull \hbox (badness 5008) in paragraph at lines 329--330
 []\OT1/ppl/m/n/9 Hu M. and Bing L., \A list of En-glish pos-i-tive
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 322--323
+Underfull \hbox (badness 4899) in paragraph at lines 329--330
 \OT1/ppl/m/n/9 and neg-a-tive opin-ion words or sen-ti-ment words."
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 []\OT1/ppl/m/it/9 MatLab\OT1/ppl/m/n/9 . (R2021b). Math-Works. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 []\OT1/ppl/m/n/9 Mohammad S. M. and Kir-itchenko S.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 \OT1/ppl/m/n/9 \Sen-ti-ment Com-po-si-tion Lex-i-con of Nega-tors,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 \OT1/ppl/m/n/9 Modals, and Ad-verbs (SCL-NMA)." 2016.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 []\OT1/ppl/m/n/9 Mohammad S. M. and Kir-itchenko S.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 \OT1/ppl/m/n/9 \Sen-ti-ment Com-po-si-tion Lex-i-con of Op-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 \OT1/ppl/m/n/9 pos-ing Po-lar-ity Phrases (SCL-OPP)." 2016.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 []\OT1/ppl/m/it/9 Reddit\OT1/ppl/m/n/9 . Red-dit Inc. [On-line] Avail-able:
  []
 
 
-Overfull \hbox (1.50294pt too wide) in paragraph at lines 349--350
+Overfull \hbox (1.50294pt too wide) in paragraph at lines 356--357
 \OT1/ppl/m/n/9 https://sites.google.com/site/datascienceslab/projects/m 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 []\OT1/ppl/m/it/9 Twitter\OT1/ppl/m/n/9 . Twit-ter, Inc. [On-line] Avail-able:
  []
 
-[8] (./paper.aux)
+[9] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -533,16 +534,16 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5608 strings out of 478305
  82657 string characters out of 5849247
- 878538 words of memory out of 5000000
+ 873538 words of memory out of 5000000
  23730 multiletter control sequences out of 15000+600000
  511474 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,1255b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,6n,62p,1255b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (8 pages, 277027 bytes).
+Output written on paper.pdf (9 pages, 276997 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
