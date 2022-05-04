@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.5)  14 APR 2022 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  4 MAY 2022 10:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/hruby/Documents/DOCUMENTS/University/IS/Assignment/LaTeX code/paper.tex"
-(c:/Users/hruby/Documents/DOCUMENTS/University/IS/Assignment/LaTeX code/paper.tex
+**"d:/Dokumenty/DOCUMENTS/University/Year 2/Semester 2/KF5042 Intelligent Systems/KF5042 Assignment/LaTeX code/paper.tex"
+(d:/Dokumenty/DOCUMENTS/University/Year 2/Semester 2/KF5042 Intelligent Systems/KF5042 Assignment/LaTeX code/paper.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (./IEEEtran.cls
+L3 programming layer <2022-04-29> (./IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Christensen
 -- Based on V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -87,68 +87,462 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen152
 \c@IEEEbiography=\count196
 \@IEEEtranrubishbin=\box50
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\lst@mode=\count197
+\lst@gtempboxa=\box51
+\lst@token=\toks18
+\lst@length=\count198
+\lst@currlwidth=\dimen153
+\lst@column=\count199
+\lst@pos=\count266
+\lst@lostspace=\dimen154
+\lst@width=\dimen155
+\lst@newlines=\count267
+\lst@lineno=\count268
+\lst@maxwidth=\dimen156
+ (c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count269
+\lst@skipnumbers=\count270
+\lst@framebox=\box52
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen157
+)) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count276
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip16
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
+\tag@help=\toks20
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
+\andhelp@=\toks21
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
 ) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count197
-\l__pdf_internal_box=\box51
-) (./paper.aux)
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box55
+) (./paper.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+\c@lstlisting=\count284
+ (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen168
+\scratchbox=\box56
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen169
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks25
+) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 52.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 44.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14> on input line 44.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.79996> on input line 44.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 44.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 52.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 52.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 62.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 115.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 115.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 115.
- [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Underfull \hbox (badness 1661) in paragraph at lines 72--74
+\OT1/ppl/m/n/12 most promi-nent re-search ar-eas in ma-chine
+ []
+
+[1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
+]
+Underfull \hbox (badness 1888) in paragraph at lines 77--78
+\OT1/ppl/m/n/12 sen-ti-ment anal-y-sis. Med-hat et al [11] and
+ []
 
-] (./paper.aux) ) 
+
+Underfull \hbox (badness 1400) in paragraph at lines 82--83
+\OT1/ppl/m/n/12 As men-tioned above, sen-ti-ment anal-y-sis is
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 82--83
+\OT1/ppl/m/n/12 Document-level sen-ti-ment anal-y-sis aims to
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 89--90
+\OT1/ppl/m/n/12 a sen-ti-ment lex-i-con { a col-lec-tion of pre-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 91--92
+[]\OT1/ppl/m/n/12 Machine learn-ing ap-proaches tend to be
+ []
+
+[2]
+Underfull \hbox (badness 1755) in paragraph at lines 121--122
+\OT1/ppl/m/n/12 pub-lic meth-ods { Train, Test and Clas-sify
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 121--122
+\OT1/ppl/m/n/12 method takes in the test-ing data, pre-dicts
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 true positives \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 true negatives \OT1/cmr/m/n/12 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+\OML/cmm/m/it/12 false positives \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 false negatives\OT1/cmr/m/n/12 )$\OT1/ppl/m/n/12 ),
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 121--122
+\OT1/ppl/m/n/12 Demon-stra-tion of the sen-ti-ment clas-si-fier
+ []
+
+[3] [4]
+LaTeX Font Info:    Trying to load font information for OML+ppl on input line 157.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 157.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 186.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [5]
+Overfull \hbox (12.06369pt too wide) in paragraph at lines 200--202
+[][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 217.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 217.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+LaTeX Font Info:    Font shape `OML/ppl/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 241.
+<./Assets//support-vector-machine-showcase-graph.png, id=31, 130.086pt x 130.086pt>
+File: ./Assets//support-vector-machine-showcase-graph.png Graphic file (type png)
+<use ./Assets//support-vector-machine-showcase-graph.png>
+Package pdftex.def Info: ./Assets//support-vector-machine-showcase-graph.png  used on input line 279.
+(pdftex.def)             Requested size: 156.10239pt x 156.10239pt.
+<./Assets//reddit-communities-datasets.png, id=33, 1165.35374pt x 671.50874pt>
+File: ./Assets//reddit-communities-datasets.png Graphic file (type png)
+<use ./Assets//reddit-communities-datasets.png>
+Package pdftex.def Info: ./Assets//reddit-communities-datasets.png  used on input line 284.
+(pdftex.def)             Requested size: 279.69061pt x 161.16539pt.
+
+Overfull \hbox (26.64075pt too wide) in paragraph at lines 284--285
+ [] 
+ []
+
+<./Assets//world-languages-datasets.png, id=34, 1164.35pt x 665.48625pt>
+File: ./Assets//world-languages-datasets.png Graphic file (type png)
+<use ./Assets//world-languages-datasets.png>
+Package pdftex.def Info: ./Assets//world-languages-datasets.png  used on input line 289.
+(pdftex.def)             Requested size: 279.4497pt x 159.71996pt.
+
+Overfull \hbox (26.39984pt too wide) in paragraph at lines 289--290
+ [] 
+ []
+
+[7 <./Assets//support-vector-machine-showcase-graph.png> <./Assets//reddit-communities-datasets.png> <./Assets//world-languages-datasets.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+[]\OT1/ppl/m/n/9 Coppola D., \OT1/ppl/m/it/9 E-commerce world-wide { statis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+\OT1/ppl/m/it/9 tics & facts\OT1/ppl/m/n/9 , Statista, Feb. 2022. Ac-cessed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+\OT1/ppl/m/n/9 on May. 5, 2022. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+\OT1/ppl/m/n/9 https://://www.statista.com/topics/871/online-
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 304--305
+[]\OT1/ppl/m/n/9 Corinna, C. and Vap-nik V., \Sup-port vec-tor Net-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 304--305
+\OT1/ppl/m/n/9 works," \OT1/ppl/m/it/9 Mach Learn 20\OT1/ppl/m/n/9 , pp. 273-297, Sep. 1995, doi:
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 313--314
+[]\OT1/ppl/m/n/9 Friedman N. \OT1/ppl/m/it/9 et al.\OT1/ppl/m/n/9 , \Bayesian Net-work Clas-si-fiers,"
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 313--314
+\OT1/ppl/m/it/9 Ma-chine Learn-ing 29\OT1/ppl/m/n/9 , pp. 131-163, Nov. 1997, doi:
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 322--323
+[]\OT1/ppl/m/n/9 Hu M. and Bing L., \A list of En-glish pos-i-tive
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 322--323
+\OT1/ppl/m/n/9 and neg-a-tive opin-ion words or sen-ti-ment words."
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+[]\OT1/ppl/m/it/9 MatLab\OT1/ppl/m/n/9 . (R2021b). Math-Works. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+[]\OT1/ppl/m/n/9 Mohammad S. M. and Kir-itchenko S.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+\OT1/ppl/m/n/9 \Sen-ti-ment Com-po-si-tion Lex-i-con of Nega-tors,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+\OT1/ppl/m/n/9 Modals, and Ad-verbs (SCL-NMA)." 2016.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+[]\OT1/ppl/m/n/9 Mohammad S. M. and Kir-itchenko S.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+\OT1/ppl/m/n/9 \Sen-ti-ment Com-po-si-tion Lex-i-con of Op-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+\OT1/ppl/m/n/9 pos-ing Po-lar-ity Phrases (SCL-OPP)." 2016.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+[]\OT1/ppl/m/it/9 Reddit\OT1/ppl/m/n/9 . Red-dit Inc. [On-line] Avail-able:
+ []
+
+
+Overfull \hbox (1.50294pt too wide) in paragraph at lines 349--350
+\OT1/ppl/m/n/9 https://sites.google.com/site/datascienceslab/projects/m 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+[]\OT1/ppl/m/it/9 Twitter\OT1/ppl/m/n/9 . Twit-ter, Inc. [On-line] Avail-able:
+ []
+
+[8] (./paper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1202 strings out of 478268
- 22488 string characters out of 5850346
- 315856 words of memory out of 5000000
- 19450 multiletter control sequences out of 15000+600000
- 508664 words of font info for 102 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 34i,6n,37p,259b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (1 page, 59139 bytes).
+ 5608 strings out of 478305
+ 82657 string characters out of 5849247
+ 878538 words of memory out of 5000000
+ 23730 multiletter control sequences out of 15000+600000
+ 511474 words of font info for 115 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,7n,62p,1255b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on paper.pdf (8 pages, 277027 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
